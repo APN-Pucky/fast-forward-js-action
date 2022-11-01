@@ -1,6 +1,9 @@
 
 # Fast Forward PR action
 
+> :warning: **This is a slightly modified version from the original to work with a fast-forward action/bot **: https://github.com/APN-Pucky/fast-forward-action
+
+
 Merge pull request using fast forward only, if possible, moving base branch (target branch) to head branch (source branch). Comment success or failure messages on the pull request issue. The goal is to keep branches equal at the end of the merge.
 
 ```git checkout target_base && git merge source_head --ff-only```
